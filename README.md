@@ -1,5 +1,4 @@
-# V.E.N.T.R.I.S. - Vision-Enabled Gesture Recognition & Interaction System
-
+# V.E.N.T.R.I.S. - Vision-Enhanced Natural Trigger & Responsive Interface System
 This documentation outlines the functionality and setup of the **V.E.N.T.R.I.S.** script, a Python application that uses computer vision to recognize hand gestures in real-time and launch applications based on those gestures.
 
 ---
