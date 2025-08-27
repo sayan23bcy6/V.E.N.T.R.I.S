@@ -14,7 +14,7 @@ def main():
     ventris_dir = os.path.join(app_data_dir, "Ventris")
     shortcuts_dir = os.path.join(ventris_dir, "CollectedShortcuts")
     mappings_file = os.path.join(ventris_dir, "mappings.json")
-    asl_test_dir_src = "asl_alphabet_test"
+    asl_test_dir_src = "public/asl_alphabet_test"
     asl_test_dir_dest = os.path.join(ventris_dir, "asl_alphabet_test")
 
     print(f"Creating directory: {ventris_dir}")

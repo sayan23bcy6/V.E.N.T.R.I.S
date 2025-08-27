@@ -69,7 +69,7 @@ def main():
 
     # Step 1: Run the search script to find all shortcuts
     print("Step 1: Searching for application shortcuts...")
-    if not run_script("search.py"):
+    if not run_script("src/search.py"):
         print("Could not complete the shortcut search. Exiting.")
         os.system("pause")
         sys.exit(1)
@@ -77,14 +77,14 @@ def main():
     # Step 2: Run the configuration GUI for the user to map gestures
     print("\nStep 2: Please configure your gesture-to-application mappings in the window.")
     print("Save your mappings and close the configuration window to proceed.")
-    if not run_script("config_gui.py"):
+    if not run_script("src/config_gui.py"):
         # This is not necessarily a fatal error, the user might just close it.
         # The main app will handle the case where mappings are not set.
         print("Configuration window closed.")
         
     # Step 3: Launch the main gesture recognition application
     print("\nStep 3: Starting the main gesture recognition application...")
-    if not run_script("ventris_gui.py"):
+    if not run_script("src/ventris_gui.py"):
         print("The main application has closed or encountered an error.")
 
     print("\n--- V.E.N.T.R.I.S. has been shut down. ---")

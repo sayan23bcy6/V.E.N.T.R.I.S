@@ -7,7 +7,7 @@ import time
 import json
 
 # --- CONFIGURATION ---
-MODEL_PATH = 'ventris_model_final.pkl'
+MODEL_PATH = 'src/ventris_model_final.pkl'
 # Use AppData\Local for the Ventris directory
 app_data_dir = os.getenv('LOCALAPPDATA')
 if not app_data_dir:
