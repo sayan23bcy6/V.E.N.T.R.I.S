@@ -68,7 +68,6 @@ def main():
     print(f"Shortcuts collected in: {shortcuts_dir}")
     print(f"Mappings file created at: {mappings_file}")
     print("You can now run config_gui.py to set up your gesture mappings.")
-    os.system("pause")
 
 
 if __name__ == "__main__":

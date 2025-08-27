@@ -138,6 +138,7 @@ class ConfigGUI(QWidget):
             json.dump(self.mappings, f, indent=4)
             
         print("Mappings saved successfully!")
+        self.close()
 
 if __name__ == '__main__':
     app_data_dir = os.getenv('LOCALAPPDATA')
